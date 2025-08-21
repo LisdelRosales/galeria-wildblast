@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloquear rutas sensibles
+Disallow: /admin
+Disallow: /api
+Disallow: /auth
+
+# Permitir sitemap
+Sitemap: https://your-domain.com/sitemap.xml
